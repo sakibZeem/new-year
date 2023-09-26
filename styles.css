@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+/* header section */
+header {
+    background: url(/images/banner/banner2.png);
+    height: 809px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: end;
+}
+
+.header-tittle {
+    color: var(--Dark-01, #151414);
+    font-size: 65px;
+    font-weight: 700;
+    width: 525px;
+    padding-left: 845px;
+    padding-top: 216px;
+}
+
+.header-para {
+    width: 494px;
+    padding-left: 876px;
+}
+
+.contact-us {
+    width: 160px;
+    height: 64px;
+    margin-right: 299px;
+    border-radius: 5px;
+    background: #F15B22;
+    margin-top: 32px;
+    cursor: pointer;
+    border: 0;
+}
